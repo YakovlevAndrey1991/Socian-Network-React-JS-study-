@@ -10,21 +10,7 @@
     /*grid-gap: 10px;*/
 }
 
-.header {
-    grid-area: h;
-    background-color: #6d5a5a;
-}
 
-.header img {
-    width: 40px;
-}
 
-.nav {
-    grid-area: n;
-    background-color: #9e69ab;
-}
 
-.content {
-    grid-area: c;
-    background-color: #6baea6;
-}
+
