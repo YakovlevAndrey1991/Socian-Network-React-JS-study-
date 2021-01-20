@@ -1,17 +1,12 @@
 import s from './Profile.module.css';
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
         <div className={s.content}>
             <img src="https://alpindustria.ru/i/tour/programms/596_1800.jpg" alt=""/>
             <div>ava+description</div>
-            <div>My posts
-                <div>New Post</div>
-                <div className={s.posts}>
-                    <div className={s.item}>post 1</div>
-                    <div className={s.item}>post 2</div>
-                </div>
-            </div>
+            <MyPosts/>
         </div>
     );
 }
