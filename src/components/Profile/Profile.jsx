@@ -1,11 +1,11 @@
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
     return (
         <div>
-            <img src="https://alpindustria.ru/i/tour/programms/596_1800.jpg" alt=""/>
-            <div>ava+description</div>
+            <ProfileInfo/>
             <MyPosts/>
         </div>
     );
