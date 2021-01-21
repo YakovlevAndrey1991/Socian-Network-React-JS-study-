@@ -7,10 +7,12 @@
 .dialogsItems {
     padding: 10px;
 }
+
 .dialogsItems a {
     color: white;
     text-decoration: none;
 }
+
 .dialogsItems a.active {
     color: gold;
 }
