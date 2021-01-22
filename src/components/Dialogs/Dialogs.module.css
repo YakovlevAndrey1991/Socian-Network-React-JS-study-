@@ -5,7 +5,13 @@
 }
 
 .dialogsItems {
+
     padding: 10px;
+}
+
+.dialogsItems img {
+    width: 20px;
+    display: inline-flex;
 }
 
 .dialogsItems a {
